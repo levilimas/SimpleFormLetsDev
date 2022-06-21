@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "Montserrat", -apple-system, "Roboto", sans-serif;
+  color: #201e1f;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  padding: 90px;
+}
+
+#container h1 {
+  font-size: 600;
+  font-size: italic;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#container h2 {
+  text-align: center;
+}
+
+#container p#instucao {
+  text-align: center;
+  margin: 20px 0 60px 0;
+}
+
+#container img {
+  margin: 50px;
+}
+
+#container hr {
+  background: #e5e5e5;
+  height: 1px;
+  width: 100%;
+  margin: 100px 0 35px 0;
+}
+
+#container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form p#aviso {
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+form p#aviso strong {
+  font-weight: 600;
+}
+
+
+form div.column-input {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 70px;
+}
