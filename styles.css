@@ -106,3 +106,18 @@ form .row {
   padding: 0 5px;
   margin: 25px 0;
 }
+
+form .row-selectors {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form .row-selectors input[type="radio"] {
+  width: 25px;
+  height: 25px;
+}
+
+form .row-selectors label {
+  font-weight: 400;
+}
